@@ -1,9 +1,8 @@
 use strict;
 use warnings;
-use lib qw(/home/hamid);
+use lib qw( ../lib );
 use Test::More;
 use Test::Exception;
-use Data::Dumper;
 
 #Can you find/load module
 require_ok('RomanNumeralGenerator');
